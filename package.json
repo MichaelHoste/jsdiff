@@ -1,0 +1,10 @@
+{
+  "name": "jsdiff",
+  "version": "0.0.1",
+  "description": "Javascript Diff Algorithm",
+  "main": "jsdiff.js",
+  "repository": "https://github.com/clubhouse/jsdiff",
+  "author": "John Resig <jeresig@gmail.com>",
+  "license": "MIT",
+  "private": true
+}
