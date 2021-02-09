@@ -70,8 +70,8 @@ function diffString( o, n ) {
 }
 
 function diff( o, n ) {
-  var ns = new Object();
-  var os = new Object();
+  var ns = Object.create(null);
+  var os = Object.create(null);
 
   for ( var i = 0; i < n.length; i++ ) {
     if ( ns[ n[i] ] == null )
